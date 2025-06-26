@@ -1,5 +1,8 @@
 # TrySeek v0.1
 
+![tryseek_01](https://github.com/user-attachments/assets/46502a1a-1ee9-4ddb-a2e6-27e51c3666dc)
+![tryseek_01](https://github.com/user-attachments/assets/46502a1a-1ee9-4ddb-a2e6-27e51c3666dc)
+
 Scanner simples e rápido para descobrir hosts ativos e serviços vulneráveis em uma sub-rede.
 
 ## ⚙️ Funcionalidades
