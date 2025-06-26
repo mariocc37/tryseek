@@ -16,6 +16,7 @@ Scanner simples e rápido para descobrir hosts ativos e serviços vulneráveis e
 - `bash`
 - `dig`, `whois`, `nc`, `figlet`, `curl`
 
+## 🔧 INSTALAÇÃO | LINUX & TERMUX
 ## 🐧 Linux (Debian, Kali, Ubuntu)
 ```
 sudo apt update
