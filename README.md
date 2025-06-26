@@ -41,7 +41,7 @@ Mozilla/5.0 (Linux; Android 10; SM-G975F)
 curl/7.68.0
 ```
 
-## ⚠️ Aviso Legal
+## ⚠️ Aviso
 
 Esta ferramenta é apenas para fins educacionais e de testes em ambientes autorizados.
 **Use com responsabilidade!**
