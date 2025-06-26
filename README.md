@@ -18,12 +18,12 @@ Scanner simples e rápido para descobrir hosts ativos e serviços vulneráveis e
 ## 🐧 Linux (Debian, Kali, Ubuntu)
 ```
 sudo apt update
-sudo apt install -y dnsutils whois netcat figlet curl
+sudo apt install -y dnsutils whois figlet curl
 ```
 ## 📱 Termux (Android)
 ```
-pkg update
-pkg install -y dnsutils whois netcat figlet curl
+pkg update && upgrade
+pkg install -y dnsutils whois figlet curl
 ```
 
 ## 🚀 Uso
