@@ -22,7 +22,7 @@ sudo apt install -y dnsutils whois figlet curl
 ```
 ## 📱 Termux (Android)
 ```
-pkg update && upgrade
+pkg update && pkg upgrade -y
 pkg install -y dnsutils whois figlet curl
 ```
 
