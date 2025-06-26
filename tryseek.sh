@@ -3,34 +3,6 @@
 # Scanner simples e rápido para descobrir hosts ativos e serviços vulneráveis em uma sub-rede.
 # Autor: Marioc37
 
-# ========== Detecta sistema e define comando de instalação ==========
-if command -v pkg &>/dev/null; then
-    INSTALADOR="pkg install -y"
-    SISTEMA="Termux"
-elif command -v apt &>/dev/null; then
-    INSTALADOR="sudo apt install -y"
-    SISTEMA="Kali/Ubuntu"
-else
-    echo "[✘] Sistema não suportado."
-    exit 1
-fi
-
-echo "[*] Ambiente detectado: $SISTEMA"
-echo "[*] Verificando dependências..."
-
-# ========== Lista de dependências ==========
-dependencias=(dig whois curl figlet nc)
-
-# ========== Verifica e instala ==========
-for cmd in "${dependencias[@]}"; do
-    if ! command -v "$cmd" &>/dev/null; then
-        echo "[!] $cmd não encontrado. Instalando..."
-        $INSTALADOR "$cmd"
-    else
-        echo "[✔] $cmd encontrado."
-    fi
-done
-
 clear
 # Argumentos
 host="$(dig +short $1 | tail -n1 | cut -d '.' -f1-3)"
