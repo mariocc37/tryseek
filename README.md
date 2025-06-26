@@ -7,7 +7,7 @@ Scanner simples e rápido para descobrir hosts ativos e serviços vulneráveis e
 
 - Ping sweep (varredura de IPs ativos)
 - Detecção de serviços comuns por porta
-- Identificação básica de servidor web via HTTP header
+- Identificação basica de servidor web via HTTP header
 - Whois da rota
 - User-Agent aleatório (evita bloqueio simples)
 
