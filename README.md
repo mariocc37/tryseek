@@ -19,12 +19,12 @@ Scanner simples e rápido para descobrir hosts ativos e serviços vulneráveis e
 ##
 ## 🔧 INSTALAÇÃO
 
-## - `🐧 Linux (Debian, Kali, Ubuntu)`
+## 🐧 Linux (Debian, Kali, Ubuntu)
 ```
 sudo apt update
 sudo apt install -y dnsutils whois figlet curl
 ```
-## - `📱 Termux (Android)`
+## 📱 Termux (Android)
 ```
 pkg update && pkg upgrade -y
 pkg install -y dnsutils whois figlet curl
