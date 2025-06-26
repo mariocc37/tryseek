@@ -1,7 +1,7 @@
 #!/usr/bin/env bash
 
-# Ping sweep
-# Autor: Andre
+# Scanner simples e rápido para descobrir hosts ativos e serviços vulneráveis em uma sub-rede.
+# Autor: Marioc37
 
 # Argumentos
 host="$(dig +short $1 | tail -n1 | cut -d '.' -f1-3)"
