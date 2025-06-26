@@ -42,8 +42,12 @@ declare -A portv=(
 if [ "$1" == "" ]
 then
         figlet -f standard "TRYSEEK"
-        echo "Mode de uso:"
-        echo "[$0] + IP/Dominio 10 (Numero de host a testar)"
+        echo "MODO DE USO"
+        echo "./tryseek.sh exemplo.com 1 10"
+        echo "Pingar apartir de host 1 a host 10"
+        echo "Detecção de serviços nesses hosts"
+        echo "Identificação de servidor web via HTTP header nesses hosts"
+        echo "Whois da rota: 1 a 10"
 else
         figlet -f standard "TRYSEEK"
         echo -e "\e[31mv.0.1 | use com responsabilidade! obrigado.\e[0m\n"
