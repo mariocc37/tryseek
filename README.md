@@ -41,6 +41,10 @@ pkg install -y dnsutils whois figlet curl
 ```bash
 ./tryseek.sh exemplo.com 1 10
 ```
+- Pingar apartir de host 1 a host 10
+- Detecção de serviços nesses hosts
+- Identificação de servidor web via HTTP header nesses hosts
+- Whois da rota: 1 a 10
 
 ## 📁 Arquivo `userAgent.txt`
 
