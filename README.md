@@ -15,8 +15,13 @@ Scanner simples e rápido para descobrir hosts ativos e serviços vulneráveis e
 - `bash`
 - `dig`, `whois`, `nc`, `figlet`, `curl`
 
-```bash
-sudo apt install dnsutils whois netcat figlet curl
+```✅ Linux (Debian, Kali, Ubuntu)
+sudo apt update
+sudo apt install -y dnsutils whois netcat figlet curl
+```
+```✅ Termux (Android)
+pkg update
+pkg install -y dnsutils whois netcat figlet curl
 ```
 
 ## 🚀 Uso
