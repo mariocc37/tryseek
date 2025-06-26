@@ -3,6 +3,22 @@
 # Scanner simples e rápido para descobrir hosts ativos e serviços vulneráveis em uma sub-rede.
 # Autor: Marioc37
 
+# ========== Verifica e instala dependências ==========
+dependencias=(dig whois curl figlet nc)
+
+echo "[*] Verificando dependências..."
+
+for cmd in "${dependencias[@]}"; do
+    if ! command -v $cmd &> /dev/null; then
+        echo "[!] $cmd não encontrado. Instalando..."
+        sudo apt install -y "$cmd"
+    else
+        echo -e "\e[32m[OK] $cmd encontrado.\[0m"
+    fi
+done
+
+clear
+
 # Argumentos
 host="$(dig +short $1 | tail -n1 | cut -d '.' -f1-3)"
 ic="$2"
